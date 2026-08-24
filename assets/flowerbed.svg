@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <defs>
+    <g id="tulipA">
+      <rect x="-2.5" y="-38" width="5" height="38" rx="2.5" fill="#9DB397"/>
+      <path d="M0 -10 C -16 -14 -22 -24 -22 -34 C -10 -28 -2 -20 0 -10 Z" fill="#8FA98C"/>
+      <path d="M0 -10 C 16 -14 22 -24 22 -34 C 10 -28 2 -20 0 -10 Z" fill="#8FA98C"/>
+      <ellipse cx="-11" cy="-50" rx="9.5" ry="19" transform="rotate(-20 -11 -50)" fill="#E8A7BB"/>
+      <ellipse cx="11" cy="-50" rx="9.5" ry="19" transform="rotate(20 11 -50)" fill="#D98CA6"/>
+      <ellipse cx="0" cy="-56" rx="10" ry="21" fill="#F4BFCB"/>
+    </g>
+    <g id="tulipB">
+      <rect x="-2.5" y="-38" width="5" height="38" rx="2.5" fill="#9DB397"/>
+      <path d="M0 -10 C -16 -14 -22 -24 -22 -34 C -10 -28 -2 -20 0 -10 Z" fill="#8FA98C"/>
+      <path d="M0 -10 C 16 -14 22 -24 22 -34 C 10 -28 2 -20 0 -10 Z" fill="#8FA98C"/>
+      <ellipse cx="-11" cy="-50" rx="9.5" ry="19" transform="rotate(-20 -11 -50)" fill="#FFD9E0"/>
+      <ellipse cx="11" cy="-50" rx="9.5" ry="19" transform="rotate(20 11 -50)" fill="#E8A7BB"/>
+      <ellipse cx="0" cy="-56" rx="10" ry="21" fill="#FFE9EE"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="120" fill="#FAF5EE"/>
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="#3E353B" stroke-opacity="0.12"/>
+  <ellipse cx="600" cy="118" rx="560" ry="8" fill="#F2D9DD" opacity="0.4"/>
+
+  <!-- pollen -->
+  <circle cx="350" cy="32" r="2.4" fill="#F4BFCB" opacity="0.7"/>
+  <circle cx="752" cy="20" r="2" fill="#F4BFCB" opacity="0.55"/>
+  <circle cx="984" cy="46" r="1.8" fill="#E8A7BB" opacity="0.5"/>
+
+  <!-- tulip row -->
+  <g transform="translate(120 104)"><use href="#tulipA"/></g>
+  <g transform="translate(285 104)">
+    <g transform="scale(0.85)"><use href="#tulipB"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" values="0 -1.6 0" dur="8s" repeatCount="indefinite" additive="sum"/></g>
+  </g>
+  <g transform="translate(450 104)"><g transform="scale(1.12)"><use href="#tulipA"/></g></g>
+  <g transform="translate(615 104)">
+    <g transform="scale(0.9)"><use href="#tulipB"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" values="0 -1.4 0" dur="9s" repeatCount="indefinite" additive="sum"/></g>
+  </g>
+  <g transform="translate(780 104)"><g transform="scale(1.06)"><use href="#tulipA"/></g></g>
+  <g transform="translate(945 104)">
+    <g transform="scale(0.8)"><use href="#tulipB"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" values="0 -1.8 0" dur="7s" repeatCount="indefinite" additive="sum"/></g>
+  </g>
+  <g transform="translate(1110 104)"><use href="#tulipA"/></g>
+</svg>

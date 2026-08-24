@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.6 0 0 0 0"/>
+    </filter>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="1200" height="340" fill="#FAF5EE"/>
+
+  <!-- registration ticks -->
+  <g stroke="#3E353B" stroke-opacity="0.35" stroke-width="1">
+    <path d="M34 29 v10 M29 34 h10"/>
+    <path d="M1166 29 v10 M1161 34 h10"/>
+    <path d="M34 311 v10 M29 306 h10"/>
+    <path d="M1166 311 v10 M1161 306 h10"/>
+  </g>
+
+  <!-- hairline frame -->
+  <rect x="20" y="20" width="1160" height="300" fill="none" stroke="#3E353B" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="26" y="26" width="1148" height="288" fill="none" stroke="#D98CA6" stroke-opacity="0.32" stroke-width="1"/>
+
+  <!-- editorial text block -->
+  <rect x="88" y="84" width="132" height="2" fill="#D98CA6"/>
+  <text x="88" y="110" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" letter-spacing="8" fill="#8FA98C">AMSTERDAM · GARDEN · CODE</text>
+  <text x="84" y="200" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="96" fill="#3E353B">Liesbeth</text>
+  <line x1="88" y1="230" x2="352" y2="230" stroke="#3E353B" stroke-width="1" stroke-opacity="0.25"/>
+  <circle cx="360" cy="230" r="2.2" fill="#D98CA6"/>
+  <text x="88" y="270" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#D98CA6">the garden of code &amp; flowers</text>
+
+  <!-- monogram seal -->
+  <g transform="translate(178 316)">
+    <circle r="17" fill="none" stroke="#3E353B" stroke-opacity="0.4" stroke-width="1"/>
+    <circle r="13.5" fill="none" stroke="#8FA98C" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="0" y="4.5" text-anchor="middle" font-family="Georgia, serif" font-size="12" letter-spacing="1" fill="#3E353B" fill-opacity="0.75">LB</text>
+  </g>
+
+  <!-- footer captions -->
+  <text x="34" y="289" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" letter-spacing="6" fill="#3E353B" fill-opacity="0.4">LIESBETH · PROFILE · MMXXVI</text>
+  <text x="1164" y="289" text-anchor="end" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#3E353B" fill-opacity="0.35">01</text>
+
+  <!-- botanical tulip, line engraving -->
+  <g transform="translate(940 0)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- stem -->
+    <path d="M46 252 C 52 234, 48 216, 42 192" stroke="#8FA98C" stroke-width="1.6"/>
+    <!-- bud -->
+    <path d="M42 192 C 30 184, 24 172, 28 158 C 36 166, 41 176, 42 186" stroke="#8FA98C" stroke-width="1.4"/>
+    <path d="M42 192 C 54 184, 60 172, 56 158 C 48 166, 43 176, 42 186" stroke="#8FA98C" stroke-width="1.4"/>
+    <path d="M42 190 C 43 180, 43 170, 42 162" stroke="#8FA98C" stroke-width="1.2"/>
+    <path d="M42 162 C 39 156, 40 152, 42 149" stroke="#D98CA6" stroke-width="1.2"/>
+    <!-- leaves -->
+    <path d="M44 244 C 26 243, 10 232, 0 216" stroke="#8FA98C" stroke-width="1.3"/>
+    <path d="M46 236 C 68 232, 84 216, 90 194" stroke="#8FA98C" stroke-width="1.3"/>
+    <!-- ground -->
+    <path d="M18 258 C 34 262, 60 262, 76 258" stroke="#3E353B" stroke-width="1" stroke-opacity="0.3"/>
+  </g>
+
+  <!-- floating petals -->
+  <g transform="translate(700 150)">
+    <g fill="#D98CA6">
+      <path d="M0 0 C 3 4, 4 8, 0 12 C -4 8, -3 4, 0 0 Z" opacity="0.22">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -20; 0 0" dur="7s" repeatCount="indefinite" additive="sum"/>
+      </path>
+    </g>
+    <g fill="#8FA98C">
+      <path d="M0 0 C 3 4, 4 8, 0 12 C -4 8, -3 4, 0 0 Z" opacity="0.18">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -26; 0 0" dur="9s" begin="2s" repeatCount="indefinite" additive="sum"/>
+      </path>
+    </g>
+  </g>
+  <g transform="translate(820 225)">
+    <g fill="#D98CA6">
+      <path d="M0 0 C 3 4, 4 8, 0 12 C -4 8, -3 4, 0 0 Z" opacity="0.16">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -16; 0 0" dur="6s" begin="1.5s" repeatCount="indefinite" additive="sum"/>
+      </path>
+    </g>
+  </g>
+
+  <!-- film grain -->
+  <rect width="1200" height="340" fill="#000000" filter="url(#grain)" opacity="0.05"/>
+</svg>

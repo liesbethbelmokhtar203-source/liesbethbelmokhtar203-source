@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" font-family="'Segoe UI',-apple-system,system-ui,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="200" fill="url(#bg)" rx="14"/>
+  <g stroke="#1f2630" stroke-width="1">
+    <line x1="0" y1="50" x2="880" y2="50"/><line x1="0" y1="100" x2="880" y2="100"/>
+  </g>
+  <g>
+    <rect x="-80" y="46" width="80" height="8" rx="4" fill="#2dd4bf" opacity="0.85">
+      <animate attributeName="x" from="-80" to="900" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.1;0.9;1" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-80" y="60" width="40" height="8" rx="4" fill="#fbbf24" opacity="0.8">
+      <animate attributeName="x" from="-80" to="900" dur="7s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.9;1" dur="7s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-80" y="74" width="120" height="8" rx="4" fill="#2dd4bf" opacity="0.7">
+      <animate attributeName="x" from="-80" to="900" dur="9s" begin="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.1;0.9;1" dur="9s" begin="2.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(690,160)">
+    <line x1="0" y1="0" x2="170" y2="0" stroke="#30363d" stroke-width="1"/>
+    <rect x="6" width="20" fill="url(#teal)" rx="2" height="20">
+      <animate attributeName="height" values="20;70;40;70" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-20;-70;-40;-70" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="40" width="20" fill="url(#teal)" rx="2" height="40">
+      <animate attributeName="height" values="40;30;80;55" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-40;-30;-80;-55" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="74" width="20" fill="url(#teal)" rx="2" height="55">
+      <animate attributeName="height" values="55;90;35;60" dur="6s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-55;-90;-35;-60" dur="6s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="108" width="20" fill="url(#teal)" rx="2" height="30">
+      <animate attributeName="height" values="30;50;75;45" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-30;-50;-75;-45" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="40" y="118" fill="#e6edf3" font-size="36" font-weight="700">Liesbeth Belmokhtar</text>
+  <text x="42" y="148" fill="#2dd4bf" font-size="18" font-weight="500">Data Engineer</text>
+  <text x="158" y="148" fill="#8b949e" font-size="15">· dbt · Airflow · DuckDB · Antwerp</text>
+  <rect x="40" y="156" width="10" height="20" fill="#2dd4bf">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

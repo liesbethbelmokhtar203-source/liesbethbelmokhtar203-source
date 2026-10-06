@@ -104,3 +104,12 @@ actually read. I do not do recruiter mail.
 
 <sub>Antwerp, Belgium. CET/CEST. Coffee before 14:00, otherwise I am awake at 3
 reading about columnar storage formats, which helps nobody.</sub>
+
+---
+
+## Where I get my news
+
+Before I write any SQL, I read. My daily digest: **[t.me/Lx_groups](https://t.me/Lx_groups)**
+(Chinese; browse the archive without an account at [t.me/s/Lx_groups](https://t.me/s/Lx_groups)).
+Deep dives land on [blog.lynxflow.co](https://blog.lynxflow.co); the channel's FAQ:
+[blog.lxlynx.com/tg-channel-landing/](https://blog.lxlynx.com/tg-channel-landing/).
